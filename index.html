@@ -11,6 +11,36 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+    <section class="game-area">
+        <div>
+            <p>Choose</p>
+            <button aria-label="Rock" data-choice="0" class="control">Rock</button>
+            <button aria-label="Paper" data-choice="1" class="control">Paper</button>
+            <button aria-label="Scissors" data-choice="2" class="control">Scissors</button>
+        </div>
+        <div id="win-message">
+            who's winning message
+        </div>
+        <div class="Player1">
+            <h2 class="scores">Your Score: <span id="player1-score">0</span></h2>
+            <img id="player1-img" src="" alt="">
+        </div>
+        <div class="Player2">
+            <h2 class="scores">Your Score: <span id="player2-score">0</span></h2>
+            <img id="player2-img" src="" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            <h3>Game rules</h3>
+            <p>The Rock blunts the Scissors, the Paper covers the Rock and the Scissors cuts the Paper.</p>
+        </div>
+
+    </footer>
  
     <script src="assets/js/script.js"></script>
 </body>
